@@ -30,7 +30,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Podaj e-mail:" />
+            android:text="@string/email"/>
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
@@ -38,10 +38,25 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:text="ewa@poczta.pl" />
+            android:text="@string/email_tekst" />
 
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/haslo"
+            />
 
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            />
     </LinearLayout>
+
+
 
 </LinearLayout>
 
